@@ -1,0 +1,36 @@
+body {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  
+}
+
+h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2a3cc1;
+}
+
+#summaryOutput {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+
+  
