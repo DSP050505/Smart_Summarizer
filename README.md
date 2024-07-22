@@ -25,10 +25,13 @@ YouTube Video Summarizer is a Chrome extension that provides concise summaries o
 
 ## Setting Up the Backend
 
-1. Ensure you have Python and pip installed. Create a virtual environment (optional but recommended):
+1. Ensure you have Python and pip installed. Create a virtual environment (recommended):
     ```sh
     python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    venv\Scripts\activate or
+    source venv/bin/activate
+
+
     ```
 2. Install the required Python packages:
     ```sh
