@@ -42,13 +42,13 @@ flask
 youtube_transcript_api
 transformers[torch]
 
-2. Install the required Python packages:
+4. Install the required Python packages:
     ```sh
     pip install -r requirements.txt  or do it manually
     pip install flask youtube_transcript_api transformers[torch]
 
     ``` 
-3. Run the Flask app:
+5. Run the Flask app:
     ```sh
     python app.py
     ```
