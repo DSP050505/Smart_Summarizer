@@ -32,13 +32,23 @@ YouTube Video Summarizer is a Chrome extension that provides concise summaries o
 1. after creating virtual environiment, activate it by following command:
     ```sh
      venv\Scripts\activate //for windows
-    source venv/bin/activate //fpr linux
+    source venv/bin/activate //for linux
     ```
 
+
+2. Create a requirements.txt File and paste follwing snippet to get the dependencies:
+    ```sh
+flask
+youtube_transcript_api
+transformers[torch]
+
+    ```
 2. Install the required Python packages:
     ```sh
-    pip install -r requirements.txt
-    ```
+    pip install -r requirements.txt  or do it manually
+    pip install flask youtube_transcript_api transformers[torch]
+
+    ``` 
 3. Run the Flask app:
     ```sh
     python app.py
