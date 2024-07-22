@@ -38,10 +38,8 @@ YouTube Video Summarizer is a Chrome extension that provides concise summaries o
 
 2. Create a requirements.txt File and paste follwing snippet to get the dependencies:
     ```sh
-flask
-youtube_transcript_api
-transformers[torch]
-
+     venv\Scripts\activate //for windows
+    source venv/bin/activate //for linux
     ```
 2. Install the required Python packages:
     ```sh
